@@ -4,9 +4,9 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import Navbar from './components/Navbar';
 import Home from './views/Home';
-import Users from './views/Users';
-import Login from './views/Login';
-import Donate from './views/Donate';
+// import Users from './views/Users';
+// import Login from './views/Login';
+// import Donate from './views/Donate';
 import Contact from './views/Contact';
 import Portfolio from './views/Portfolio'
 
@@ -19,12 +19,12 @@ const App = () => {
 			<Routes>
 				<Route path="/portfolio" element={<Portfolio />}/>
 				<Route path="/" element={<Home />}/>
-				<Route path="/users" element={<Users />}/>
-				<Route path="/donate" element={
-					<Elements stripe={stripe}>
+				{/* <Route path="/users" element={<Users />}/> */}
+				{/* <Route path="/donate" element={ */}
+					{/* <Elements stripe={stripe}>
 						<Donate />	
 					</Elements>}/>
-				<Route path="/Login" element={<Login />}/>
+				<Route path="/Login" element={<Login />}/> */}
 				<Route path="/contact" element={<Contact />}/>
 			</Routes>
 		</BrowserRouter>
