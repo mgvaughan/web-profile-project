@@ -25,7 +25,7 @@ const Users = () => {
     return (
         <div className="row justify-content-center">
             {users.map(usr => (
-                <div onClick={() => nav(`/api/users/${usr.id}`)} key={`user-car-${usr.id}`} className="col-7 my-1">
+                <div onClick={() => nav(`/users/${usr.id}`)} key={`user-car-${usr.id}`} className="col-7 my-1">
                     <div className="card bg-white shadow-lg">
                         <h1>{usr.id}</h1>
                         <h6>{usr.email}</h6>

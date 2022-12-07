@@ -21,4 +21,4 @@ export default {
         domain: process.env.MAILGUN_DOMAIN,
         toEmail: process.env.MAILGUN_TO_EMAIL
     }
-}
+} 

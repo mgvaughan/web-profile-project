@@ -26,19 +26,19 @@ const Donate = (props: DonateProps) => {
                 name
             }
         });
-
+        
         if (error) {
-            console.log('error', error);
+            console.log('error: ', error);
         } else {
-            console.log('paymentMethod', paymentMethod);
+            console.log('paymentMethod: ', paymentMethod);
             const res = await fetch('/api/donate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ amount, paymentMethod })
             });
 
-            const paymentDone = await res.json();
-            console.log(paymentDone);
+            const successfulPayment = await res.json();
+            console.log(successfulPayment);
         }
     };
 
@@ -46,12 +46,12 @@ const Donate = (props: DonateProps) => {
         <main className="container">
             <section className="row mt-5 justify-content-center">
                 <div className="col-md-6">
-                    <form className="form-group p-3 border border-rounded-lg bg-light">
+                    <form className="form-group p-3 border border-rounded-lg bg-light shadow">
                         <h3 className="text-center">Thank You for Your Contribution!</h3>
                         <input type="text" className="form-control my-1" value={name} onChange={e => setName(e.target.value)} />
                         <input type="text" className="form-control my-1" value={amount} onChange={e => setAmount(e.target.value)} />
                         <CardElement className="form-control my-1" />
-                        <button onClick={handleSubmit} className="btn btn-primary my-1">Donate</button>
+                        <button onClick={handleSubmit} className="btn btn-secondary my-1">Donate</button>
                     </form>
                 </div>
             </section>

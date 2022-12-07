@@ -21,6 +21,7 @@ router.post('/', async (req, res) => {
             from: newEmail.from,
             text: newEmail.message
         });
+        res.json(result);
     } catch (error) {
         console.log(error);
         res.status(500).json({ message: 'unable to send contact email, check server logs' })
