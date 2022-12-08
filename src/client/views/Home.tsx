@@ -9,9 +9,10 @@ const Home = () => {
                 </div >
                 <div className="col-xl-6">
                     <h2 className="display-5 text-center my-3">Michael Vaughan, PE</h2>
-                    <h4 className="my-3">Hi, and welcome to my website!</h4>
-                    <h4 className="my-3">I am a licensed Professional Engineer that has worked in the Civil Engineering field for 10 years.  While taking a Coursera Python course in 2022, I discovered that software development would not only become a hobby, but a passion. Since then, I have completed a full stack engineering program by Covalence, and I am continuing to develop my Software Engineering skills by building personal projects and studying educational resources</h4>
-                    <h4 className="my-3">On here, you can find links to some of the projects that I completed during the Covalence course, as well as some of my own personal projects and websites</h4>
+                    <h5 className="my-3">Hi, and welcome to my website!</h5>
+                    <h5 className="my-3">I am a licensed Professional Engineer that has worked in the Civil Engineering field for 10 years.  While taking a Coursera Python course in 2022, I discovered that software development would not only become a hobby, but a passion. Since then, I have completed a full stack engineering program by Covalence, and I am continuing to develop my software engineering skills by building personal projects and studying educational resources.</h5>
+                    <h5 className="my-3">On here, you will find links to projects that I completed during the Covalence course, as well as some of my own personal projects and websites.</h5>
+                    <h5 className="my-3">Please reach out if you would like to discuss my experience or projects more!</h5>
                 </div >
             </div>
             <div className="container">
