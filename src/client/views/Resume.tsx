@@ -202,7 +202,7 @@ const Resume = () => {
                         <h6 className="col-md-6 text-end fst-italic">August 17, 2022</h6>
                     </div>
                     <div className="row">
-                        <h6 className="col-md-6">Coursera: Python for Everyone (5 Course Certificate)</h6>
+                        <h6 className="col-md-6">University of Michigan: Python for Everybody Specialization (5 Course Certificate)</h6>
                         <h6 className="col-md-6 text-end fst-italic">March 9, 2022</h6>
                     </div>
                     <div className="row">
