@@ -75,7 +75,7 @@ const Resume = () => {
                             <h6 className="col-md-6">Construction Manager</h6>
                             <h6 className="col-md-6 text-end fst-italic">June 2017 - December 2019</h6>
                         </div>
-                        <p>Under both titles, I operated as both a Pre-Construction & Construction Project Manager.  As a Construction Project Manager, I managed projects in multiple states, and typically managed multiple projects simultaneously.  For FY 2022, I was a top 5 project manager for Schnabel with reference to Project Income ($) earned.</p>
+                        <p>At Schnabel, I operated as both a Pre-Construction & Construction Project Manager.  While working as a Construction Project Manager, I managed projects in multiple states, and typically managed multiple projects simultaneously.  For FY 2022, I was a top 5 Construction Project Manager for Schnabel with reference to Project Income ($) earned.</p>
                         <div className="row justify-content-center">
                             <div className="col-md-10">
                                 <h6>As a Pre-Construction Project Manager, I completed the following responsibilities for bids:</h6>
@@ -97,8 +97,8 @@ const Resume = () => {
                                     <li className="">Executed material quantity take-offs based on project shop drawings.  Utilized this information to generate accurate overall project schedule and budget.</li>
                                     <li className="">Negotiated contract and change orders with General Contractors.</li>
                                     <li className="">Created project specific safety documents and General Contractor’s required submittal documents.</li>
-                                    <li className="">Ordered and scheduled delivery of essential materials and equipment needed for successful completion of project.</li>
-                                    <li className="">Effectively communicated schedule updates and timely communicated foreseeable issues at client meetings.</li>
+                                    <li className="">Ordered and scheduled delivery of essential materials and equipment needed for completion of project.</li>
+                                    <li className="">Effectively communicated schedule, and timely communicated foreseeable issues at client meetings.</li>
                                     <li className="">Completed all project specific closeout documents.</li>
                                 </div>
                             </div>
