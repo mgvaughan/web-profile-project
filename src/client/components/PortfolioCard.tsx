@@ -17,10 +17,8 @@ const PortfolioCard = (props: PortfolioCardProps) => {
                                 <h6 className="card-subtitle p-2"><span className="fw-bold">Technical Skills Used: </span>{props.skills}</h6>
                             </div>
                             <div className="row g-0">
-                                <a href={props.website} className="btn btn-secondary">Click Link!</a>
+                                <a href={props.website} className="btn btn-secondary">Website Link</a>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
